@@ -403,9 +403,14 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Header ----- */
 /* --------------------------------------- */
 
+.overlay {
+    background-color: black;
+    opacity: 0.8;
+  }
+
 .header {
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+    background: linear-gradient(rgba(0,0,0, .9), rgba(0,0,0, .1)), 
+        url('./images/bgBeach.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
