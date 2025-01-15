@@ -1,21 +1,175 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>Megan's Website</title>
-  </head>
-  <body>
-    <h1>Megan's Webpage</h1>
-    <p>Crochet is a process of creating textiles by 
-        using a <strong> crochet hook </strong> to interlock loops of yarn, 
-        thread, or strands of other materials. The name is
-         derived from the French term crochet, meaning 'hook'.
-         Hooks can be made from a variety of materials, 
-         such as metal, wood, bamboo, bone or plastic. You can read more at
-        <a href="https://en.wikipedia.org/wiki/Crochet" title="Crochet Wikipedia Source" target="_blank">Crochet Wikipedia</a>.    
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <title>
+    Megan Gross | AI Master's Student Located in San Jose, CA
+  </title>
+
+  <meta name="description" content="My name is Megan and I am master's student studying AI at San Jose State University.">
+
+  <meta name="keywords" content="Megan Gross, Machine Learning, Artificial Intelligence, Java" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+<div class="overlay">
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#workID" class="nav__link">Work</a></li>
+          <li class="nav__item">
+            <a href="#aboutID" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contactID" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Megan Gross</span>
+        </h1>
+        <p> Pursuing M.S. in Artificial Intelligence at SJSU</p>
+        <a href="#contactID" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+</div>
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="workID" name="workID">
+    <a name="workID" id="workID"></a>
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Fruit Classification</h3>
+              <p>The fruit industry is a billion dollar industry producing tons of fruits yearly however in grocery stores, unsold fruit deteriorates, rots, and is subsequently thrown out.
+                I along with five teamates proposed a machine learning model that can identify if fruits are fresh or rotten so that
+                in practice, the model can be implemented in stores, detect fruit as its going bad, and this fruit can be donated
+                to food shelters. The proposed solution is a pretrained ResNet50 model that uses transfer learning and was trained on six different fruits. The overall accuracy result for the model was 98%. 
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>TensorFlow</li>
+                <li>SkLearn</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/meganegross" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/fruit.jpg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>CCTV Footage Anomaly Detection</h3>
+              <p>
+                Anomaly detection using CCTV footage is an important problem to address using machine learning solutions as doing so can identify and report suspicious activity therefore increasing public safety. Many home security cameras do not currently use AI to notify owners, and instead only detect movement. Using the UCF Crime dataset and a Video Vision Transformer (ViViT), a model was made that could classify regular and irregular activity with up to 67% accuracy. Further work is still being done to improve and stabilize the results. 
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Tensorflow</li>
+                <li>SkLearn</li>
+                <li>Keras</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/meganegross" class="link__text">
+                  View Source Code <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/meganegross">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/cctv.jpg" class="work__image" alt="Project 2" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="aboutID" name="aboutID">
+      <div class="row">
+        <a name="aboutID" id="aboutID"></a>
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              Hello, my name is Megan Gross and I am a first year master's student in the Artifical Intelligence program at San Jose State University (SJSU). I have a B.S. in Computer Science from CSU Sacramento. My research interests include digital accessibilty and equal opportunity AI applications. I am currently undertaking an independent research project under the supervision of Professor Flores at SJSU. I am researching the fairness of AI applications for people with disabilities. I am surveying past works on the accessibility of different AI technology for a variety of different disabilities and analyze the specific populations that are most and least addressed.  I am also providing a set of guidelines of considerations and recommendations for future technology developed. 
+            </p>
+
+            <a href="https://docs.google.com/document/d/1obZDFNIiqtHAo56s1JGb3oGnXgxMM5HL/edit?usp=sharing&ouid=117659167535574373466&rtpof=true&sd=true" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <img class="about__photo" src="./images/meganGross.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contactID" name="contactID">
+          <a name="contactID" id="contactID"></a>
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          The quickest way to reach out to me is via an email. 😊 
         </p>
-        <a href="https://amenagerieofstitchesblog.com/free-crochet-pattern-amigurumi-spring-chicks/">
-            <img src="https://amenagerieofstitchesblog.com/wp-content/uploads/2020/08/LaurenEspy_MichaelsCrochetMonth_FinalProject_Chicks-01-1024x1024.jpg" alt="Image of 6 crochet chicks stacked in a pyramid" title="Click me for Image Source!">
-        </a>
-  </body>
+
+        <a href="mailto:megangross001@gmail.com" class="btn">megangross001@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/meganegross" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/megan-e-gross">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
 </html>
