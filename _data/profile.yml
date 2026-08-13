@@ -5,18 +5,20 @@ navbar_name: "Megan Gross"
 positions:
 - name: PhD Student
 - name: University of Washington
-  logo: /assets/images/badges/uw.jpg  # Logo is optional
+  logo: /assets/images/badges/uw.jpg  
 
 
 email: "meggross@cs.washington.edu"
 # cv_link: link-to-your-cv-file
-gscholar: DBXcxw8AAAAJ  # This is an example, replace it with your own Google Scholar ID
+gscholar: DBXcxw8AAAAJ  
+linkedin: megan-e-gross
 github: meganegross
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Hello. 
+    Hello! I am a PhD student in the <a href="https://seclab.cs.washington.edu/">Security and Privacy Lab </a> at the University of Washington 
+    Paul G. Allen Center for Computer Science and Engineering. I am honored to be advised by <a href="https://www.franziroesner.com/">Dr. Franzi Roesner.</a>
   </p>
 
 portrait_url: /assets/images/photos/portrait.JPG
@@ -37,11 +39,11 @@ education:
   position: B.S. in Computer Science
   date: Aug. 2019 - May 2024
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+ - name: AI Institute for Agent-based Cyber Threat Intelligence and Operation at UCSB
+   logo: /assets/images/badges/action.png
+   position: AI Research Intern
+   date: Jun. 2025 - Sept. 2025
 
 #awards:
 #- name: Award Name 2
